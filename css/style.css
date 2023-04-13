@@ -123,12 +123,13 @@ button{
 
 .col-wrapper{
     height: 740px;
-    background-color: chocolate;
+    /*background-color: chocolate;*/
     justify-content: space-between;
 }
 
 .col-header{
     border: 2px gray solid;
+    line-height: 1.7rem;
 }
 
 .column{
@@ -139,6 +140,16 @@ button{
     height: 100%;
     width: 30%;
     background-color: darksalmon;
+}
+
+.col-type{
+    height: 20%;
+    background-color: chartreuse;
+}
+
+.col-attributes-and-button{
+    height: 35%;
+    background-color: aqua;
 }
 
 
