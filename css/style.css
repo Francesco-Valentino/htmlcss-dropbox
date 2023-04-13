@@ -16,6 +16,10 @@
     flex-direction: column;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .pos-relative{
     position: relative;
 }
@@ -25,12 +29,12 @@
 }
 
 .wide-container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .narrow-container{
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -39,7 +43,7 @@ body{
 }
 
 header{
-    height: 800px;
+    height: 650px;
     background-color: cyan;
 }
 
@@ -79,4 +83,33 @@ button{
     line-height: 1.5rem;
     background-color: #0061FF;
 }
+
+.jumbo{
+    height: 500px;
+    /*background-color: burlywood;*/
+    position: relative;
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.jumbo-text{
+    font-size: .8rem;
+    width: 300px;
+    padding-left: 3rem;
+}
+
+.jumbo img{
+    padding-left: 3rem;
+    width: 700px;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+
+
 
