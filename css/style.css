@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.dir-row{
+    flex-direction: row;
+}
+
+.dir-column{
+    flex-direction: column;
+}
