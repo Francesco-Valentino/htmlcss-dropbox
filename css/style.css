@@ -35,6 +35,11 @@
 }
 
 header{
-    height: 200px;
+    height: 800px;
     background-color: cyan;
+}
+
+nav{
+    height: 100px;
+    background-color: blueviolet;
 }
