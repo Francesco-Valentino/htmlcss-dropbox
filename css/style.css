@@ -124,6 +124,21 @@ button{
 .col-wrapper{
     height: 740px;
     background-color: chocolate;
+    justify-content: space-between;
+}
+
+.col-header{
+    border: 2px gray solid;
+}
+
+.column{
+    border: 2px gray solid;
+}
+
+.narrow-col{
+    height: 100%;
+    width: 30%;
+    background-color: darksalmon;
 }
 
 
