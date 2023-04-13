@@ -15,3 +15,12 @@
 .dir-column{
     flex-direction: column;
 }
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
