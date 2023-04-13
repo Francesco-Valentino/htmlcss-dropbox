@@ -48,3 +48,11 @@ main{
     height: 1600px;
     background-color: lightgreen;
 }
+
+header ul{
+    list-style-type: none;
+}
+
+button{
+    text-decoration: none;
+}
