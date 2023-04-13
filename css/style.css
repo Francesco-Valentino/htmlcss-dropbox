@@ -34,3 +34,7 @@
     margin: 0 auto;
 }
 
+header{
+    height: 200px;
+    background-color: cyan;
+}
