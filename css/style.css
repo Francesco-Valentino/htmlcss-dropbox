@@ -58,6 +58,7 @@ nav{
 main{
     height: 1600px;
     background-color: lightgreen;
+    padding-top: 8rem;
 }
 
 header ul{
@@ -109,6 +110,20 @@ button{
     position: absolute;
     right: 30px;
     top: 0px;
+}
+
+.title-in-main p{
+    padding-top: 3.5rem;
+    font-size: .75rem;
+}
+
+.title-in-main span{
+    padding-right: 2rem;
+}
+
+.col-wrapper{
+    height: 98vh;
+    background-color: chocolate;
 }
 
 
