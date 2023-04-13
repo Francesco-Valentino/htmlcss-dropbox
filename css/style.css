@@ -61,6 +61,14 @@ header ul{
     justify-content: space-between;
 }
 
+.nav-left>li{
+    padding-right: 2rem;
+}
+
+.nav-right>li{
+    padding-left: 1.5rem;
+}
+
 header img{
     width: 100px;
 }
