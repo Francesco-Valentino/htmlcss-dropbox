@@ -130,10 +130,12 @@ button{
 .col-header{
     border: 2px gray solid;
     line-height: 1.7rem;
+    text-align: center;
 }
 
 .column{
     border: 2px gray solid;
+    font-size: .75rem;
 }
 
 .narrow-col{
@@ -150,6 +152,33 @@ button{
 .col-attributes-and-button{
     height: 35%;
     background-color: aqua;
+}
+
+.column button{
+    margin-top: 2.3rem;
+}
+
+.buy-option{
+    padding-top: 1rem;
+}
+
+.users,.space,.share{
+    padding-top: .6rem;
+}
+
+.col-mini-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.wide-col-wrapper{
+    height: 200px;
+    margin-top: 35px;
+}
+
+.wide-col{
+    background-color: salmon;
+    height: 100%;
 }
 
 
