@@ -245,5 +245,11 @@ button{
     font-size: .75rem;
 }
 
+.squares-wrapper{
+    width: 100%;
+    height: 650px;
+    background-color: crimson;
+}
+
 
 
