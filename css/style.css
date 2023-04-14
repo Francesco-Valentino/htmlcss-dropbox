@@ -259,15 +259,28 @@ button{
     background-color: darkgoldenrod;
 }
 
-.lat-square img{
-    width: 15vw;
-    filter: invert(1);
-}
 
 .logo-square{
     width: 50%;
-    height: 199.73px;
+    height: calc(100vw / 6);
+    position: relative;
 }
+
+.logo-square img{
+    width: 15vw;
+    filter: invert(1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-entry{
+    height: 300px;
+    background-color: aqua;
+}
+
+
 
 
 
