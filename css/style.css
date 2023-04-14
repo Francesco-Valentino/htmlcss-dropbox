@@ -223,5 +223,14 @@ button{
     padding: 2rem 1.5rem;
 }
 
+.card{
+    height: 30%;
+    width: 200px;
+}
+
+.card img{
+    width: 100%;
+}
+
 
 
