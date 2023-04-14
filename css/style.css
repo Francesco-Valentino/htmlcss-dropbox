@@ -211,5 +211,17 @@ button{
     margin-left: 5rem;
 }
 
+.paragraph{
+    margin-top: 6rem;
+}
+
+.paragraph img{
+    width: 450px;
+}
+
+.par-text{
+    padding: 2rem 1.5rem;
+}
+
 
 
