@@ -223,13 +223,26 @@ button{
     padding: 2rem 1.5rem;
 }
 
+.cards-row{
+    justify-content: space-between;
+}
+
 .card{
+   margin-top: 2rem;
     height: 30%;
-    width: 200px;
+    width: 30%;
 }
 
 .card img{
     width: 100%;
+}
+
+.card h2{
+    font-size: 1.3rem;
+}
+
+.card p{
+    font-size: .75rem;
 }
 
 
