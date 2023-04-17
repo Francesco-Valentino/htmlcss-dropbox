@@ -258,11 +258,6 @@ button{
     width: calc(100% / 3);
 }
 
-.lat-square{
-    background-color: darkgoldenrod;
-}
-
-
 .logo-square{
     width: 50%;
     height: calc(100vw / 6);
@@ -276,6 +271,38 @@ button{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.designit{
+    background-color: #A2D39B;
+}
+
+.asu{
+    background-color: #61082B;
+}
+
+.fu{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1C1C;
+}
+
+.wbr{
+    background-color: #D5001F;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.lp{
+    background-color: #0D2481;
+}
+
+.cc{
+    background-color: #FFD830;
 }
 
 .footer-entry{
@@ -316,6 +343,29 @@ footer nav{
     color: white;
 }
 
+.footer-col-wrapper{
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.footer-col-wrapper section{
+    width: 20%;
+    padding-left: 2rem;
+}
+
+.footer-col-wrapper h3{
+    line-height: 4rem;
+}
+
+.footer-col-wrapper li{
+    font-size: .8rem;
+    line-height: 1.8rem;
+}
+
+.lang{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
 
 
 
