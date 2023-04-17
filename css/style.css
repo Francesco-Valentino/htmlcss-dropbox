@@ -44,12 +44,12 @@ body{
 
 header{
     height: 650px;
-    background-color: cyan;
+    background-color: #B4D0E7;
 }
 
 nav{
     /*height: 100px;*/
-    background-color: blueviolet;
+    background-color: white;
     justify-content: space-between;
     font-size: .9rem;
     padding: 1rem 0;
@@ -57,7 +57,7 @@ nav{
 
 main{
     height: 2600px;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
     padding-top: 8rem;
 }
 
@@ -67,6 +67,14 @@ ul{
 
 header ul{
     justify-content: space-between;
+}
+
+.nav-left{
+    margin-left: 1.2rem;
+}
+
+.nav-right{
+    margin-right: 1.2rem;
 }
 
 .nav-left>li{
@@ -82,10 +90,19 @@ header img{
 }
 
 button{
-    text-decoration: none;
+    border: none;
     color: white;
     line-height: 1.5rem;
     background-color: #0061FF;
+}
+
+header button{
+    line-height: 1.6rem;
+    padding: 0 1rem;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .jumbo{
@@ -117,6 +134,7 @@ button{
 
 .title-in-main p{
     padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
     font-size: .75rem;
 }
 
@@ -131,30 +149,30 @@ button{
 }
 
 .col-header{
-    border: 2px gray solid;
+    border-bottom: 1px lightgrey solid;
     line-height: 1.7rem;
     text-align: center;
 }
 
 .column{
-    border: 2px gray solid;
+    border: 1px lightgrey solid;
     font-size: .75rem;
 }
 
 .narrow-col{
     height: 100%;
     width: 30%;
-    background-color: darksalmon;
+    /*background-color: darksalmon;*/
 }
 
 .col-type{
     height: 20%;
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
 }
 
 .col-attributes-and-button{
     height: 35%;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .column.narrow-col button{
@@ -186,7 +204,7 @@ button{
 }
 
 .wide-col{
-    background-color: salmon;
+    /*background-color: salmon;*/
     height: 100%;
 }
 
@@ -363,8 +381,7 @@ footer nav{
 }
 
 .lang{
-    padding-top: 2rem;
-    padding-left: 2rem;
+  padding: 2rem 0 2rem 2rem;
 }
 
 .shortest{
@@ -372,7 +389,7 @@ footer nav{
 }
 
 .shortest hr{
-    width: 5vw;
+    width: 6vw;
 }
 
 
