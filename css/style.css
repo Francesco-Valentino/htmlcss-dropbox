@@ -279,7 +279,15 @@ button{
     height: 300px;
     background-color: aqua;
     color: #5D0229;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.r-footer-entry-col{
+    width: 40%;
+}
+
+.l-footer-entry-col{
+    width: 60%;
 }
 
 .accordion-wrapper{
