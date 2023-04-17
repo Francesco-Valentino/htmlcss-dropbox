@@ -278,11 +278,13 @@ button{
 .footer-entry{
     height: 300px;
     background-color: aqua;
+    color: #5D0229;
+    font-size: 2rem;
 }
 
 .accordion-wrapper{
     height: 300px;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 
 footer nav{
