@@ -330,11 +330,22 @@ button:hover{
 .squares-wrapper{
     width: 100%;
     /*height: 650px;*/
-    background-color: crimson;
+    /*background-color: crimson;*/
 }
 
 .square{
     width: calc(100% / 3);
+}
+
+.central-square{
+    background-color: #F5F5F5;
+}
+
+.inner-square{
+    width: 85%;
+    margin:0 auto;
+    padding-top: 2rem;
+    font-size: .9rem;
 }
 
 .logo-square{
@@ -386,7 +397,7 @@ button:hover{
 
 .footer-entry{
     /*height: 270px;*/
-    background-color: aqua;
+    background-color: #B4D0E7;
     color: #5D0229;
     font-size: 1.4rem;
     padding: 5rem 0;
@@ -399,6 +410,13 @@ button:hover{
 .r-footer-entry-col{
     width: 40%;
     text-align: right;
+}
+
+.r-footer-entry-col button{
+    background-color: white;
+    color: #000000;
+    padding: 0 2.5rem;
+    line-height: 2rem;
 }
 
 .accordion-wrapper{
@@ -454,6 +472,16 @@ footer nav{
 }
 
 #central-logo{
-    width: 15vw;
+    width: 14vw;
+    padding-bottom: 1.5rem;
+}
+
+#square-hr{
+    width: 20%;
+    margin-bottom: 1.5rem;
+}
+
+#quote{
+    margin-top: 1.5rem;
 }
 
