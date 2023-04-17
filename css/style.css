@@ -125,6 +125,20 @@ button:hover{
     padding-left: 3rem;
 }
 
+.jumbo-text p{
+    margin-bottom: 1.5rem;
+}
+
+.jumbo button{
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.jumbo-text span{
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
 .jumbo img{
     padding-left: 3rem;
     width: 700px;
