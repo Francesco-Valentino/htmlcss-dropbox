@@ -265,7 +265,7 @@ button{
 }
 
 .logo-square img{
-    width: 15vw;
+    width: 8.5vw;
     filter: invert(1);
     position: absolute;
     left: 50%;
@@ -365,6 +365,14 @@ footer nav{
 .lang{
     padding-top: 2rem;
     padding-left: 2rem;
+}
+
+.shortest{
+    padding-left: 2rem;
+}
+
+.shortest hr{
+    width: 5vw;
 }
 
 
