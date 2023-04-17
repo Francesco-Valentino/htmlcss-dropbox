@@ -293,8 +293,19 @@ button{
 }
 
 .accordion-wrapper{
-    height: 300px;
+    /*height: 300px;*/
+    line-height: 5rem;
+    padding: 5rem 0;
     /*background-color: bisque;*/
+}
+
+.accordion-wrapper h2{
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+
+.accordion-wrapper h3{
+    font-size: .8rem;
 }
 
 footer nav{
