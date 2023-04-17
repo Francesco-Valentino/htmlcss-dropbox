@@ -285,7 +285,10 @@ button{
     background-color: bisque;
 }
 
-
+footer nav{
+    background-color: #000000;
+    color: white;
+}
 
 
 
