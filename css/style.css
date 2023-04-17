@@ -276,10 +276,11 @@ button{
 }
 
 .footer-entry{
-    height: 300px;
+    /*height: 270px;*/
     background-color: aqua;
     color: #5D0229;
     font-size: 1.4rem;
+    padding: 5rem 0;
 }
 
 .l-footer-entry-col{
