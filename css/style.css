@@ -70,6 +70,17 @@ header ul{
     justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.accordion-wrapper a,
+header a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .nav-left{
     margin-left: 1.2rem;
 }
@@ -181,6 +192,7 @@ button:hover{
 }
 
 .col-type{
+    padding-top: 1rem;
     height: 20%;
     line-height: 1.9rem;
     /*background-color: chartreuse;*/
@@ -227,6 +239,10 @@ button:hover{
 .col-plus li,
 .col-plus h3{
     padding: .7rem .3rem;
+}
+
+.col-plus i{
+    color: #0061FF;
 }
 
 .wide-col-mini-container{
@@ -339,6 +355,8 @@ button:hover{
 
 .big-text a{
     font-size: .9rem;
+    color: blue;
+    text-decoration: underline;
 }
 
 .squares-wrapper{
@@ -379,6 +397,7 @@ button:hover{
 
 .designit{
     background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
 }
 
 .asu{
@@ -438,6 +457,15 @@ button:hover{
     line-height: 5rem;
     padding: 5rem 0;
     /*background-color: bisque;*/
+}
+
+.accordion-wrapper .flex{
+    justify-content: space-between;
+}
+
+.accordion-wrapper i{
+    font-size: .7rem;
+    margin-right: 1.5rem;
 }
 
 .accordion-wrapper h2{
