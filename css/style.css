@@ -156,7 +156,7 @@ button:hover{
 
 .column{
     border: 1px lightgrey solid;
-    font-size: .75rem;
+    font-size: .8rem;
 }
 
 .narrow-col{
@@ -167,7 +167,12 @@ button:hover{
 
 .col-type{
     height: 20%;
+    line-height: 1.9rem;
     /*background-color: chartreuse;*/
+}
+
+.price{
+    font-weight: 700;
 }
 
 .col-attributes-and-button{
@@ -175,12 +180,19 @@ button:hover{
     /*background-color: aqua;*/
 }
 
+.column button{
+    width: 13vw;
+    line-height: 1.8rem;
+}
+
 .column.narrow-col button{
     margin-top: 2.3rem;
+    margin-bottom: 1.5rem;
 }
 
 .buy-option{
-    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: .75rem;
 }
 
 .users,.space,.share{
@@ -190,6 +202,16 @@ button:hover{
 .col-mini-container{
     width: 85%;
     margin: 0 auto;
+}
+
+.col-plus{
+    font-size: .7rem;
+    padding-top: 1.7rem;
+}
+
+.col-plus li,
+.col-plus h3{
+    padding: .7rem .3rem;
 }
 
 .wide-col-mini-container{
@@ -206,6 +228,10 @@ button:hover{
 .wide-col{
     /*background-color: salmon;*/
     height: 100%;
+}
+
+.wide-col button{
+    width: 13vw;
 }
 
 .left-block{
