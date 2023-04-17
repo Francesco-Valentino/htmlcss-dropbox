@@ -61,8 +61,11 @@ main{
     padding-top: 8rem;
 }
 
-header ul{
+ul{
     list-style-type: none;
+}
+
+header ul{
     justify-content: space-between;
 }
 
