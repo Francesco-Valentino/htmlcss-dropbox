@@ -59,6 +59,7 @@ main{
     /*height: 2600px;*/
     /*background-color: lightgreen;*/
     padding-top: 8rem;
+    padding-bottom: 7rem;
 }
 
 ul{
@@ -312,6 +313,20 @@ button:hover{
     font-size: .75rem;
 }
 
+.big-text{
+    padding-top: 7rem;
+    font-size: 1.4rem;
+    width: 70%;
+}
+
+.big-text h1{
+    margin-bottom: 3rem;
+}
+
+.big-text a{
+    font-size: .9rem;
+}
+
 .squares-wrapper{
     width: 100%;
     /*height: 650px;*/
@@ -438,5 +453,7 @@ footer nav{
     width: 6vw;
 }
 
-
+#central-logo{
+    width: 15vw;
+}
 
